@@ -891,6 +891,13 @@
 .gd-board-pagination button{width:42px!important;height:42px!important;border:1px solid #dce4df!important;border-radius:9px!important;background:#fff!important;color:#48564d!important;font-family:inherit!important;font-size:14px!important;font-weight:700!important;cursor:pointer!important}
 .gd-board-pagination button.active{color:#fff!important;background:#198754!important;border-color:#198754!important}
 .gd-board-pagination button:disabled{opacity:.4!important;cursor:not-allowed!important}
+
+
+#gd-header .gd-nav-link[href="program.html"] > span,
+#gd-header .gd-nav-link[href="price.html"] > span {
+    display: none !important;
+}
+
 .gd-review-board-source{margin:24px 0 0!important;padding-top:20px!important;border-top:1px solid #e0e7e1!important;color:#778078!important;font-size:12px!important;line-height:1.8!important}
 @media(max-width:820px){#gd-review-board-page .gd-review-board-section{padding-top:70px!important}.gd-review-board-heading{align-items:center!important}.gd-review-board-count strong{font-size:42px!important}.gd-board-row{grid-template-columns:52px minmax(0,1fr) 90px 100px!important;gap:8px!important;padding:0 12px!important}.gd-board-head>span:last-child,.gd-board-views{display:none!important}.gd-board-item{min-height:72px!important}.gd-board-title{font-size:15px!important}.gd-board-number,.gd-board-author,.gd-board-date{font-size:12px!important}}
 @media(max-width:600px){.gd-review-board-heading{gap:10px!important;margin-bottom:28px!important}.gd-review-board-heading .gd-title{font-size:33px!important}.gd-review-board-heading p{font-size:13px!important}.gd-review-board-count strong{font-size:34px!important}.gd-review-board-count span{font-size:8px!important}.gd-review-board-toolbar{flex-direction:column!important;align-items:stretch!important;gap:13px!important}.gd-review-board-search{min-width:0!important;width:100%!important}.gd-board-row{grid-template-columns:32px minmax(0,1fr) 65px!important;gap:8px!important;padding:0 11px!important}.gd-board-head>span:nth-child(4),.gd-board-date{display:none!important}.gd-board-head{height:46px!important}.gd-board-head>span:nth-child(3){text-align:right!important}.gd-board-author{text-align:right!important}.gd-board-title{font-size:14px!important}.gd-board-number{font-size:11px!important}.gd-board-expand{font-size:18px!important}.gd-board-content{padding:23px 17px 29px!important}.gd-board-content h3{font-size:18px!important}.gd-board-content p{font-size:14px!important}.gd-board-pagination button{width:36px!important;height:36px!important}}
